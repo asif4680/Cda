@@ -380,7 +380,7 @@
     width: 100%;
     /* grid-template-columns: repeat(3, 1fr); */
     gap: 2rem;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 .arrivals-img{
     width: 100%;
@@ -454,39 +454,179 @@
     margin-top: 50px;
     font-size: 45px;
 }
-.footer-div{
+.footer-section{
     display: flex;
     margin-top: 50px;
+    margin-left: 20px;
     grid-template-columns: repeat(4, 1fr);
-    gap: 100px;
+    /* gap: 100px; */
     overflow: hidden;
+}
+.footer-div{
+    display: flex;
+    gap: 20px;
 }
 .footer-new{
     /* display: grid; */
-    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-columns: repeat(3, 1fr); */
     border: 3px solid #e6dddd;
     border-radius: 20px;
+    gap: 60px;
     /* margin: 40px; */
-    margin-bottom: 100px;
-    height: 100px;
-    width: 100px;
+    /* margin-left: 100px; */
+    color: #c99e00;;
+    background-color:  #fefce8;
+    height: 150px;
+    width: 280px;
+    /* padding: 100px; */
 }
-.footer-new h1{
+.footer-h1{
     /* display: grid; */
     font-size: 50px;
     font-family: Manrope, sans-serif;
-    line-height: 1.6;
-    color: #080808;
-    height: 100px;
-    width: 100px;
-}
-.footer-new h3{
-    /* display: grid; */
-    font-size: 22px;
+    /* line-height: 1.6; */
+    color: #c99e00;
+    /* margin-bottom: 50px; */
+    background-color:rgba(186, 182, 182, 0);
+    margin-left:10px;
+    margin-top:40px ;
+    /* height: 100px;
+    width: 100px; */
     align-items: center;
     justify-content: center;
-    margin-left: 15px;
+}
+.footer-h3{
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    background-color: #fbf9f900;
+    margin-left: 110px;
+    background-color: none;
     margin-bottom: 10px;
     height: 100px;
     width: 100px;
+}
+
+.footer-neww{
+    /* display: grid; */
+    /* grid-template-columns: repeat(3, 1fr); */
+    border: 3px solid #e6dddd;
+    border-radius: 20px;
+    gap: 60px;
+    /* margin: 40px; */
+    /* margin-left: 100px; */
+    color: #2d2cfe;;
+    /* background-color: #dbeafe; */
+    height: 150px;
+    width: 280px;
+    /* padding: 100px; */
+}
+.footers-h1{
+    /* display: grid; */
+    font-size: 50px;
+    font-family: Manrope, sans-serif;
+    /* line-height: 1.6; */
+    color: #c99e00;
+    background-color:rgba(231, 221, 221, 0);
+    /* margin-bottom: 50px; */
+    margin-left:80px;
+    margin-top:40px ;
+    /* height: 100px;
+    width: 100px; */
+    align-items: center;
+    justify-content: center;
+}
+.footers-h3{
+    /* display: grid; */
+    font-size: 20px;
+    align-items: center;
+    color: #c99e00;
+    justify-content: center;
+    background-color: rgba(229, 222, 222, 0);
+    margin-left: 85px;
+    margin-bottom: 10px;
+    height: 100px;
+    width: 100px;
+}
+.new-h1{
+    font-size: 50px;
+    font-family: Manrope, sans-serif;
+    /* line-height: 1.6; */
+    color: #c99e00;
+    background-color:rgba(222, 222, 222, 0);
+    /* margin-bottom: 50px; */
+    margin-left: 80px;
+    margin-top:40px ;
+    /* height: 100px;
+    width: 100px; */
+    align-items: center;
+    justify-content: center;
+}
+.new-h3{
+    font-size: 20px;
+    align-items: center;
+    color: #c99e00;
+    justify-content: center;
+    background-color: #e6dfdf00;
+    margin-left: 95px;
+    margin-bottom: 10px;
+    height: 100px;
+    width: 100px;
+}
+.neww-h1{
+    font-size: 50px;
+    font-family: Manrope, sans-serif;
+    /* line-height: 1.6; */
+    color: #c99e00;
+    background-color:rgba(238, 233, 233, 0);
+    /* margin-bottom: 50px; */
+    margin-left: 100px;
+    margin-top:40px ;
+    /* height: 100px;
+    width: 100px; */
+    align-items: center;
+    justify-content: center;
+}
+.neww-h3{
+    font-size: 20px;
+    align-items: center;
+    color: #c99e00;
+    justify-content: center;
+    background-color: rgba(248, 248, 248, 0);
+    margin-left: 105px;
+    margin-bottom: 10px;
+    height: 100px;
+    width: 100px;
+}
+.latest-content{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.latest-main-content{
+    font-size: 14px;
+    font-family: arial,san-serif;
+}
+.latest-sub-content{
+    font-size: 36px;
+    font-family: Manrope, sans-serif;
+}
+.section-div{
+    height: 400px;
+    width:800px;
+    background-color: #dbeafe;
+    margin-left: 250px;
+    margin-right: 100px;
+    margin-top: 80px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+.section-divs{
+    height: 400px;
+    width:800px;
+    background-color: #255fb1;
+    margin-left: 250px;
+    margin-right: 100px;
+    margin-top: 80px;
+    border: 1px solid black;
+    border-radius: 20px;
 }
